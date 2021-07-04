@@ -1,0 +1,83 @@
+body {
+  font-family: "Teko", sans-serif;
+  margin: 0;
+}
+.flexible-content {
+  display: flex;
+  margin-bottom: 100px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 2%;
+}
+h1 {
+  font-size: 50px;
+}
+.orange-text {
+  color: rgb(211, 139, 6);
+}
+.image-sizing {
+  width: 80%;
+  margin-top: 10px;
+}
+h3 {
+  font-size: 35px;
+}
+h4 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+}
+.background-image {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.hire-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(75, 9, 9), rgb(131, 123, 15));
+  border: 1px solid green;
+  padding: 10px 20px;
+  color: rgb(247, 243, 243);
+  font-size: 20px;
+  border-radius: 7%;
+}
+.hire-button:hover {
+  background-image: linear-gradient(rgb(250, 77, 77), rgb(209, 126, 18));
+  color: black;
+}
+.dream-background {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.box-content {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  width: 40%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10%;
+}
+.experience-background {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.side-border-green {
+  border-left: 5px solid;
+  border-image: linear-gradient(green, rgb(185, 236, 83));
+  border-image-slice: 1;
+}
+.side-border-red {
+  border-left: 5px solid;
+  border-image: linear-gradient(rgb(128, 19, 0), rgb(83, 119, 236));
+  border-image-slice: 1;
+}
+.footer {
+  text-align: center;
+}
+.footer p {
+  margin-top: 50px;
+  padding-top: 20px;
+}
